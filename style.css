@@ -1,0 +1,93 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --background-color: #ecf0f1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.calculator {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 320px;
+}
+
+.display {
+  background: var(--primary-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: right;
+}
+
+#history {
+  font-size: 14px;
+  opacity: 0.7;
+  min-height: 20px;
+}
+
+#result {
+  font-size: 2.5em;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.scientific-btns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--secondary-color);
+  color: white;
+  transition: all 0.2s;
+}
+
+button:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+.op-btn {
+  background: var(--primary-color);
+}
+
+.clear-btn {
+  background: #e74c3c;
+}
+
+.equals-btn {
+  background: #2ecc71;
+}
+
+@media (max-width: 380px) {
+  .calculator {
+    width: 90%;
+    padding: 15px;
+  }
+}
