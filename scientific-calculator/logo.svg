@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Scientific Calculator Logo</title>
+  <desc id="desc">Rounded square calculator icon with math symbols.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50" />
+      <stop offset="100%" stop-color="#3498db" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#bg)" />
+  <rect x="24" y="24" width="80" height="24" rx="8" fill="#ecf0f1" opacity="0.95" />
+  <g fill="#ffffff">
+    <rect x="24" y="60" width="18" height="18" rx="4" />
+    <rect x="46" y="60" width="18" height="18" rx="4" />
+    <rect x="68" y="60" width="18" height="18" rx="4" />
+    <rect x="24" y="82" width="18" height="18" rx="4" />
+    <rect x="46" y="82" width="18" height="18" rx="4" />
+    <rect x="68" y="82" width="36" height="18" rx="4" />
+  </g>
+  <path d="M76 30h8m-4-4v8" stroke="#2c3e50" stroke-width="3" stroke-linecap="round" />
+</svg>
